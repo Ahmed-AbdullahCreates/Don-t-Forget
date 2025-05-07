@@ -45,9 +45,9 @@ function AppContent() {
         {isAuthModalOpen && <AuthModal onClose={() => setIsAuthModalOpen(false)} />}
       </AnimatePresence>
       
-      <footer className="py-6 text-center text-sm text-gray-500 dark:text-gray-400">
+      {/* <footer className="py-6 text-center text-sm text-gray-500 dark:text-gray-400">
         <p>Don't Forget &copy; {new Date().getFullYear()} - Your personal note-taking app</p>
-      </footer>
+      </footer> */}
       
       <Toaster 
         richColors 
