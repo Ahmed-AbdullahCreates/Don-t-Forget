@@ -52,17 +52,3 @@ A modern, responsive note-taking application built with React, TypeScript, and S
    # or
    yarn dev
    ```
-
-## Deployment
-
-Build the project for production:
-
-```
-npm run build
-# or
-yarn build
-```
-
-## License
-
-[MIT](LICENSE)
