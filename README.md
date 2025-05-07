@@ -4,11 +4,11 @@ A modern, responsive note-taking application built with React, TypeScript, and S
 
 ## Features
 
-- 🔐 Secure user authentication
-- 📝 Create, edit, and delete notes
-- 🌙 Light/dark mode support
-- 🔍 Search functionality for easy note retrieval
-- 📱 Responsive design for all devices
+- Secure user authentication
+- Create, edit, and delete notes
+- Light/dark mode support
+- Search functionality for easy note retrieval
+- Responsive design for all devices
 
 ## Tech Stack
 

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+    <!-- Background -->
+    <rect width="512" height="512" rx="100" fill="#0d9488" />
+    
+    <!-- Circuit board subtle patterns -->
+    <g fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1.5">
+        <path d="M96 96 H 416 M96 196 H 416 M96 296 H 416 M96 396 H 416" />
+        <path d="M96 96 V 416 M196 96 V 416 M296 96 V 416 M396 96 V 416" />
+    </g>
+    
+    <!-- Brain outline -->
+    <g fill="none" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M256 130 
+                     C 210 130, 170 150, 150 190
+                     C 130 230, 135 270, 160 300
+                     C 140 310, 130 340, 150 370
+                     C 170 400, 210 390, 240 370
+                     C 250 380, 256 380, 262 380
+                     C 270 380, 276 380, 286 370
+                     C 316 390, 356 400, 376 370
+                     C 396 340, 386 310, 366 300
+                     C 391 270, 396 230, 376 190
+                     C 356 150, 316 130, 256 130" />
+    </g>
+    
+    <!-- Circuit paths -->
+    <g fill="none" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M180 190 L 230 190 L 230 240 L 256 240" />
+        <path d="M332 190 L 282 190 L 282 240 L 256 240" />
+        <path d="M180 290 L 230 290 L 230 240" />
+        <path d="M332 290 L 282 290 L 282 240" />
+        <path d="M160 220 L 200 220 L 200 260 L 160 260" />
+        <path d="M352 220 L 312 220 L 312 260 L 352 260" />
+    </g>
+    
+    <!-- Nodes -->
+    <g>
+        <!-- Major connection points -->
+        <circle cx="180" cy="190" r="10" fill="white" />
+        <circle cx="332" cy="190" r="10" fill="white" />
+        <circle cx="180" cy="290" r="10" fill="white" />
+        <circle cx="332" cy="290" r="10" fill="white" />
+        
+        <!-- Central processor node -->
+        <circle cx="256" cy="240" r="16" fill="white" />
+        <circle cx="256" cy="240" r="8" fill="#0d9488" />
+        
+        <!-- Secondary nodes -->
+        <circle cx="160" cy="220" r="5" fill="#61dafb" />
+        <circle cx="160" cy="260" r="5" fill="#ff6b6b" />
+        <circle cx="352" cy="220" r="5" fill="#61dafb" />
+        <circle cx="352" cy="260" r="5" fill="#ff6b6b" />
+        <circle cx="200" cy="220" r="5" fill="white" />
+        <circle cx="200" cy="260" r="5" fill="white" />
+        <circle cx="312" cy="220" r="5" fill="white" />
+        <circle cx="312" cy="260" r="5" fill="white" />
+    </g>
+</svg>

@@ -25,6 +25,7 @@ const Header: React.FC<HeaderProps> = ({ onAuthClick }) => {
           <div className="flex items-center flex-shrink-0">
             <BrainCircuit className="h-6 w-6 text-teal-600 dark:text-teal-400" />
             <h1 className="ml-2 text-xl font-semibold text-gray-900 dark:text-white">Don't Forget</h1>
+            <span className="ml-2 px-1.5 py-0.5 text-xs font-medium bg-teal-100 text-teal-800 dark:bg-teal-800 dark:text-teal-100 rounded-md">BETA</span>
           </div>
           <div className="flex items-center gap-2">
             <ThemeToggle />
