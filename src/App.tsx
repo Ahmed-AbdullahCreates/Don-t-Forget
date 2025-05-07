@@ -26,12 +26,16 @@ function AppContent() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-gray-100 dark:bg-gray-900 transition-colors duration-200">
+    <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 transition-all duration-500">
+      <div className="absolute inset-0 bg-grid-pattern opacity-5 pointer-events-none"></div>
+      
       <Header onAuthClick={() => setIsAuthModalOpen(true)} />
       
-      <main className="flex-grow max-w-4xl w-full mx-auto">
+      <main className="flex-grow container max-w-5xl w-full mx-auto px-4 py-6">
         <SearchBar />
-        <NoteList />
+        <div className="mt-8">
+          <NoteList />
+        </div>
       </main>
       
       <FloatingActionButton onClick={openForm} />
@@ -41,7 +45,18 @@ function AppContent() {
         {isAuthModalOpen && <AuthModal onClose={() => setIsAuthModalOpen(false)} />}
       </AnimatePresence>
       
-      <Toaster richColors position="bottom-center" />
+      <footer className="py-6 text-center text-sm text-gray-500 dark:text-gray-400">
+        <p>Don't Forget &copy; {new Date().getFullYear()} - Your personal note-taking app</p>
+      </footer>
+      
+      <Toaster 
+        richColors 
+        position="bottom-center"
+        toastOptions={{
+          duration: 3000,
+          className: "rounded-lg shadow-lg border border-gray-100 dark:border-gray-700",
+        }}
+      />
     </div>
   );
 }
